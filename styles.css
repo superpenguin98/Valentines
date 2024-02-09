@@ -6,18 +6,19 @@ body {
     justify-content: space-evenly;
     height: 100vh;
     margin: 0;
-    background: url('images/image.jpg') repeat;
+    background: url('images/image.jpg') no-repeat;
     font-size: 35px;
-    color: rgb(255, 0, 174);
+	background-position: center;
+    background-size: cover;
 }
 .hh{
-    -webkit-text-stroke: 2px #71004f;
+   /* -webkit-text-stroke: 2px #71004f; */
     font-weight:900;
-
+	transform: scale(2,2);
+	color: white;
 }
 .pp{
-    -webkit-text-stroke: 2px #71004f;
-
+   /* -webkit-text-stroke: 2px #71004f; */
     font-size: 50px;
     font-style: oblique;
     font-weight: 800;
