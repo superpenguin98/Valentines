@@ -8,8 +8,8 @@ function showMessage(response) {
     // Set button position to absolute
     noButton.style.position = "absolute";
 
-    // Change image source to "gun.gif"
-    document.getElementsByClassName("image")[0].src = "images/gun.gif";
+    // Change image source to "angryduck.gif"
+    document.getElementsByClassName("image")[0].src = "images/angryduck.gif";
 
     // Generate random coordinates within the visible container
     const randomX = Math.max(0, Math.floor(Math.random() * maxWidth));
@@ -22,6 +22,7 @@ function showMessage(response) {
     // Update text content and hide name message
     document.getElementById("question").textContent =
       "The no button is just for visuals";
+	document.getElementById("question").style.fontFamily = "Lobster"; 
     document.getElementById("name").style.display = "none";
 
     // Optional: You can also add a timeout to reset the position after a few seconds
@@ -34,10 +35,10 @@ function showMessage(response) {
 
     // Update text content, show message, and change image source to "dance.gif"
     const yesMessage = document.getElementById("question");
-    yesMessage.textContent = "LESGOOO see you on the 14th babygirl😘😘";
+    yesMessage.textContent = "YASSS!!! See you on the 14th babyboy😘😘";
     yesMessage.style.display = "block";
     yesMessage.style.fontStyle = "normal";
-    document.getElementsByClassName("image")[0].src = "images/dance.gif";
+    document.getElementsByClassName("image")[0].src = "images/sexyduck.gif";
 
     // Remove yes button
     document.getElementById("yesButton").remove();
