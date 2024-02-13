@@ -37,7 +37,7 @@ function showMessage(response) {
     const yesMessage = document.getElementById("question");
     yesMessage.textContent = "YASSS!!! See you on the 14th babyboy😘😘";
     yesMessage.style.display = "block";
-    yesMessage.style.fontStyle = "normal";
+    yesMessage.style.fontFamily = "Tangerine";
     document.getElementsByClassName("image")[0].src = "images/sexyduck.gif";
 
     // Remove yes button
